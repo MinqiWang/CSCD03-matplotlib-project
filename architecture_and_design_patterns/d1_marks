@@ -1,0 +1,40 @@
+CSC D01 Deliverable #1 Marking Rubric
+
+Overall architecture: 12 / 15
+
+It is clear to the reader that the team correctly understands the architecture of matplotlib.
+5 / 5 
+
+
+A reader, initially unfamiliar with the architecture of matplotlib, has a good overview of matplotlib after reading the report.
+5 / 5 
+
+
+UML diagrams are correct, clear, and helpful.
+2 / 5 
+- 3 Overall architecture diagram is missing (you have a high-level architecture diagram)
+
+
+
+Design Patterns: 15 / 15
+
+Pattern 1:  5 / 5
+ 
+      The pattern is actually present in the source code: 3 / 3
+      The diagrams are correct, clear, and helpful: 2 / 2
+
+Pattern 2:  5 / 5
+ 
+      The pattern is actually present in the source code: 3 / 3
+      The diagrams are correct, clear, and helpful: 2 / 2
+
+Pattern 3:  5 / 5
+ 
+      The pattern is actually present in the source code: 3 / 3
+      The diagrams are correct, clear, and helpful: 2 / 2
+
+
+Presentation and Quality of Writing: 9 / 10
+	- 1 inconsistencies (behaviorial UML vs sequence diagram)
+
+TOTAL: 36/40 (90%)

@@ -1,0 +1,53 @@
+Deliverable 1 - Interview plan
+
+1) Overall Architecture (6 marks)
+
+i)   Ask for a volunteer (V1) -- 2 of 2 marks
+
+   Pick an "mpl overall" diagram (or several diagrams) from the team's
+   report and ask V1 to point out the major components and their
+   tasks.
+   > Open layered architecture (3 layers) - scripting layer, artist layer, backend layer
+   > Good description of usage of each layer - shows knowledge of each component
+
+i)   Ask for a volunteer (V2) -- 1 of 2 marks
+
+  Pick 2 components from the diagram V1 was explaining and ask how they
+  interact with each other.
+   > Different classes in artist layer are responsible for drawing the different combinations of small widgets
+   > Backend may have 'classes' but artist allows you to draw larger things
+   > Classes in the scripting layer wrap the API in the scripting layer to allow higher level functionality
+   > - 1 description is missing key usages, and example was not given to thoroughly trace through code functionality
+
+i)   Ask for a volunteer (V3) -- 1.5 of 2 marks
+
+  Ask to elaborate on something cool about the mpl's design. Don't be
+  satisfied with vague answers like "modular", "easy to extend",
+  etc. They should be talking about specific components, give specific
+  examples.
+   > Design has a lot of good software design - facade, triple-layered architecture
+   > MPL has a great amount of features and widgets
+   > Design components are fairly well done, seperate responsibilities, and lots of design patterns
+   > Abstraction of the layers is useful, but its pretty confusing to try and understand.
+   > -0.5 pretty general thoughts about software design
+
+2) Design Patterns (4 marks)
+
+i)   Ask for a volunteer (V4) -- 2 of 2 marks
+
+  Pick one design pattern from the report and ask V4 to show it *in
+  the code* of mpl.
+  > Good understanding of the responsibility and features of the item (Singleton)
+  > Opinionated on the usage/necessity of the design pattern
+  > Clearly located in code and discussed the usage/obseletion of the pattern
+
+i)   Ask for a volunteer (V5) -- 2 marks
+
+  Pick another design pattern from the res-port and ask V5 to show it
+  *in the code* of mpl.
+  > The Decorator design pattern, is a function that allows rasterization
+  > Shows how the decorator works and the function it decorates
+  > Opinionated and talks about the implementation and reasoning for it
+  > Locatable in the codebase and demonstrated how the pattern manifests
+
+Total 8.5/10 (85%)

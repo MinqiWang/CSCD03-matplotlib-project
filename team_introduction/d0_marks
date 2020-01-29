@@ -1,0 +1,48 @@
+Deliverable 0
+-------------
+
+1) Introduce the team:                 3.5 out of 4
+   All elements presents:  2 mark
+     team's name, picture of the entire team, team's goals, team's strengths
+   Quality of introduction:
+     realistic yet ambitious goals, makes good use of each member's background: 2 mark
+  > very good commit logs and team logo!
+  > -0.5 team goals should be a bit more ambitious - stuff like getting a pull accepted, etc.
+
+2) Introduce the team members:         4 out of 4
+   Approx 150 words each, professionalism, everything is relevant to
+     a profile of a software engineer: 2 marks
+   The members' introductions are consistent w.r.t. person (in
+   first/third person), style, qualities/interests described, etc., so
+   that the overall introduction reads well: 2 mark
+
+3) Team agreement:                     6 out of 6
+   methods of communication, including wait time for replies, clearly stated:  2
+   meeting times arranged:  1
+   contingency planning (member is sick, missing meetings, not performing up to standards, etc.):  1
+   some planning of individual roles:  2
+
+4) Project management plan:            4 out of 6
+   Plus 1 mark for a thorough, good explanation of each of the
+   following. Merely mentioning a tool is not enough (0.5 marks max):
+   version control tools (1 free, everyone is using git. 1 for how their branching/pull/push workflow looks like)
+   tools to support communication
+   website (or alternative) setup
+   tools used for planning phases/sprints
+   tools used to keep track of progress
+   bug/issue tracking tools
+   > -1 version control management strategies not described
+   > -1 no description of sprint planning or mangement tools (jira, trello, etc.)
+
+
+5) Presentation/format:                9 out of 10
+  Organization and Clarity - 4/5
+  Presentability - 3/3
+  README and Repo state - 2/2
+  > Grammar needs some work - take some extra care in the future
+
+Overview
+--------
+Logistics: 17.5/20
+Presentation: 9/10
+TOTAL: 26.5/30 (88.3%)

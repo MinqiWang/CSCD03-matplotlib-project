@@ -1,0 +1,94 @@
+Deliverable 2 - Step 1 - Interview plan
+
+One bug per person, 1 mark each.
+
+Requirements for getting a mark:
+ -- successfully reproduce and explain the bug
+
+1) Issue 2 - Ken (1 of 1 marks)
+> We can construct a widget with clip path 
+> When setting the clip path of a text object, the text still shows
+> Has code snippet that can be easily ran and reproduces the bug easily
+> clip path is set to a constructor of a text object, its stored as some attribute of object
+> clip path of object is probably dropped, reset, or overrided
+> need to locate where the clip path is changed, then determine fix by context
+
+2) Issue 1 - Jamie (1 of 1 marks)
+> function (millions function) on axis will not be called for a polar graph even though call is the same
+> no fmt_y_data or equivalency for polar graphs
+> consistency/bug 
+> solution 1 - creating a format r/theta data function
+> solution 2 - creating a fmt_y_data but doing internal conversions
+> thinks solution 1 is better
+
+3) Feature 5 - Shuang (1 of 1 marks)
+> Adding labels to the end of a line instead of in a legend
+> This makes larger multi-color easier than comparing with legends
+> Doing the research and saw how a solution was implemented, just wanted to generalize
+
+4) Issue 3 - Zixing (1 of 1 marks)
+> Working with tkinter
+> Pressing buttons are registered
+> Pressing tab shifts focus away from keylisteners (pressing tab enough times returns focus to main frame)
+> Its kind of a bug but more like a feature (enabling clicking on widget to focus on widget)
+> Should be able to use mouse listener to get focus into FigureCanvasTkAgg instead of using tab continuously
+
+
+5) Issue 4 - Xinrui (1 of 1 marks)
+> Streamplots are a type of plot
+> Lines are hidable but arrows are not
+> Arrow is done using patches (individual, added onto a patch, added onto patch collection)
+> You can't set a collection to invisible, needs to implement them like lines, instead of collections
+
+5/5 marks
+
+Deliverable 2 - Step 2 - Interview plan
+---
+1- (1 of 1 marks) Choose a member of the team, and ask them to summarize which bugs the team worked on, including: Bugs fixed, status of any PRs, and bugs that were dropped or not completed.
+Notes:
+> Decided to fix: the tab the TKBackEnd it changes the focus to the next item in the canvas but disables the keyboard interactivity w/plot
+	> Fixed!
+> Labels not placed near the data
+	> Fixed! Clipping issue but NP.
+> Bugfix - partially done, clip path not showing 
+	> Partially fixed. Object that doesnt show does not show, but the rendering for object that supposed to show is a bit messed up now (code is in C++ so its kinda wack)
+> No PRs submitted (not done to the highest degree)
+
+2- (2 of 2 marks) Choose a team member, ask them to demo the bug fix they worked on and point out who worked with them for this fix.
+Notes:
+> Shows well the traditional vs the fix
+> Discusses the actual fix and how it visually works
+> Has prepared example files
+ 
+ 
+3- (2 of 2 marks) While the demo is happening, choose a team member. Ask them show where the bug was, point to the solution, the point is to check everyone in the team knows how bugs were fixed.
+Notes:
+> Shows good degree of understanding through tracing the function call fix
+> Discussion of tradeoffs and decisions due to use cases and issue discussion on GitHub Issues
+> Good error checking and implementation
+ 
+4- (0.5 of 2 marks) Select a team member and ask them to explain how regression testing works in MPL and how their team went about checking their bugs do not break existing functionality.
+Notes:
+> No testing that they added to MPL
+> Understands the actual usages of regression testing
+> Good suggestions for possible testing was provided though (+0.5)
+ 
+5- (3 of 3 marks) Choose a team member, ask them to demo the bug fix they worked on and point out who worked with them for this fix. Ask them to show where the bug was, point to the solution, the point is to check everyone in the team knows how bugs were fixed.
+> The bug is the one thats not fully fixed w/clip path
+> Good explanation of steps towards debugging the problem
+> Source code is pulled up properly and available
+> Good demonstration of before/after partial fix
+ 
+ 
+6- (1 of 1 mark bonus) Finally, ask another team member to explain the team's idea for a feature they will implement for D3.
+> Want to fully implement Shaun's feature
+> Align all of the outside of the grid
+> Making sure none of them collide with each other
+> Auto downscaling font
+> Good level of difficulty
+ 
+9.5/10 marks
+
+TOTAL: 14.5/15 marks ( %)
+
+

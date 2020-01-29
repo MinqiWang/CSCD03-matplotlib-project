@@ -1,0 +1,79 @@
+Deliverable 0 - Interview plan
+
+1) Team Introduction                   (2 of 2 marks)
+
+   Ask for a volunteer. Don't volunteer anyone! if no one wants to talk
+   after a minute or two, move on to the next question (no marks for this!)
+
+   Ask volunteer 1 to introduce the team - that means actually telling you
+   something interesting about the team, not just the name and team goals
+   which is what most wrote on the deliverable. You can encourage them to
+   give you information by asking a couple questions about the team.
+
+   Call this volunteer #1.
+   > Everyone is 4th year
+   > Everyone seems to know each other (co-op jobs, courses)
+   > Seems friendly
+   > Professional experience - Android, Java, Python
+
+2) Team agreement                      (2 of 2 marks)
+
+   Ask for a volunteer (#2)
+
+   Ask this volunteer about some interesting aspect from their team
+   agreement (ideally, something that called your attention while
+   reading the agreement). If something in the agreement was not fully
+   fleshed-out, ask them to elaborate on it. An example is the
+   conflict resolution procedure which is typically weak. Use this
+   chance to get them to work it out - with your help.
+   > They decided to go with a professional workflow for their repo - issues, pull requests, branches, etc.
+   > Code reviews before merging into the master branch
+   > Contingency planning they have to-face warnings, then escalation
+
+3) Process                             (3 of 3 marks)
+
+   Ask for a volunteer (#3)
+
+   Ask this volunteer to describe the software development process
+   they are going to follow in this project, and to tell you *why*
+   they chose it and why it will work for their team.
+   > Review the task and break/split it work into issues (using Zenhub)
+   > Weekly meetings - faster turnaround and feedback closer to deadline
+   > 1 person reviewing work after completion - more reviews for major tasks
+   > After review, pulled into master
+
+
+4) Tools                               (3 of 3 marks)
+
+   Ask for a volunteer (or the remaining team member, if a team of 4) (#4)
+
+   Ask this volunteer to describe the set of tool their team will be
+   using and tell you *why* they chose each tool and what it will be
+   used for.  The point being to make sure they actually thought about
+   it, instead of just listing a bunch of things because they can. Ask
+   how these particular tools will aid the chosen development process.
+   > GitHub is a team repository - they use it because its very simple
+   > ZenHub is project management, its an addon for GitHub that allows it to be easier than Jira/etc
+   > Good answers for how to use each technology
+
+
+5) Recent work                         (1 bonus of 1 mark)
+
+   If you have 5 people in the team, ask the remaining one, else ask for a
+   volunteer.
+
+   Ask this person to tell you what the team has accomplished since
+   the deliverable was due. We want to send a reminder that they
+   should be working continuously and productively! We should expect
+   they have put matplotlib in the repo, installed/configured it, and
+   at least tried some very basic uses of it.
+
+   If they did nothing... be sure to let them know that's not a very
+   good way to work!
+   > After d0 they got the installation of matplotlib done locally
+   > Researching reverse engineering tool (visual paradigm)
+   > Started getting ideas about how to assign work to team members (deliverables, design patterns, etc.)
+
+Overview
+--------
+11/10 Marks (100%)
